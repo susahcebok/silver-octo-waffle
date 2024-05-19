@@ -170,5 +170,5 @@ function drawCover() {
 			}
 		}
 	}
-	logo.src = 'obyte-mask.svg';
+	logo.src = 'backgrounds.png';
 }
