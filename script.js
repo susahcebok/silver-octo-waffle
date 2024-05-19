@@ -82,10 +82,10 @@ function handleImage(e){
 }
 function drawCover() {
 	var ctx = canvas.getContext('2d');
-	var open_x = 110;
-	var open_y = 150;
-	var open_width = 520-open_x;
-	var open_height = 560-open_y;
+	var open_x = 1024;
+	var open_y = 1024;
+	var open_width = 1024-open_x;
+	var open_height = 1024-open_y;
 	var ratio = $('#cover_ratio').val();
 	var canvas_width = window.innerWidth*0.8;
 	var canvas_height = canvas_width/ratio;
