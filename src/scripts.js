@@ -102,7 +102,6 @@ function generateElements() {
         mainElement.appendChild(downloadImageElement);
 
       	statusElement.textContent = config.messages.status.done;
-	statusElement.downloadButtonElement.innerText = config.messages.buttons.download;
 
 				// create downloadlink
         let downloadButtonElement = document.createElement('a');
