@@ -29,7 +29,7 @@ function generateElements() {
 
 	let fileUploadElement = document.createElement('input');
 	fileUploadElement.type = 'file';
-	fileUploadElement..accept = "image/*";
+	fileUploadElement.accept = "image/*";
 	mainElement.appendChild(fileUploadElement);
 	
 	let overlayImageElement = new Image();
