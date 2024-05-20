@@ -1,8 +1,8 @@
 class Generator {
 	
 	static defaults = {
-		width: 200,
-		height: 200,
+		width: 1024,
+		height: 1024,
 		backgroundColor: '#ffffff',
 		offset: {
 			top: 0,
