@@ -54,7 +54,6 @@ function generateElements() {
 		  let uploadedImage = document.createElement('img');
 		  uploadedImage.setAttribute("width", "1024");
 		  uploadedImage.setAttribute("height", "1024");
-		  uploadedImage.setAttribute("class", "box");
 		  uploadedImage.src = URL.createObjectURL(this.files[0]);
 			
 		  uploadedImage.addEventListener('load', function() {
