@@ -13,8 +13,8 @@
 	"messages": {
 		"status": {
 			"startup": "Bitte Profilbild auswählen", 
-			"uploading": "Datei wird importiert, bitte warten...", 
-			"processing": "Datei wird verarbeitet, bitte warten...", 
+			"uploading": "File sedang diimpor, harap tunggu...", 
+			"processing": "File sedang diproses, harap tunggu...", 
 			"done": "Fertig!"
 		}, 
 		"buttons": {
