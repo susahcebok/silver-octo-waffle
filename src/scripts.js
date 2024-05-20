@@ -50,6 +50,7 @@ function generateElements() {
 	fileUploadElement.addEventListener('change', function() {
 		if(this.files && this.files[0]) {
 			statusElement.textContent = config.messages.uploading;
+			statusElement.textContent = config.messages.status.loading;
 			
 		  let uploadedImage = document.createElement('img');
 		  uploadedImage.setAttribute("width", "1024");
