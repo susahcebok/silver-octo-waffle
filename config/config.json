@@ -12,7 +12,7 @@
 	],
 	"messages": {
 		"status": {
-			"startup": "Bitte Profilbild auswählen", 
+			"startup": "Silahkan pilih gambar profil.", 
 			"uploading": "File sedang diimpor, harap tunggu...", 
 			"processing": "File sedang diproses, harap tunggu...", 
 			"done": "Anda berhasil mengunduh! Terima kasih."
