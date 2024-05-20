@@ -15,8 +15,7 @@
 			"startup": "Bitte Profilbild auswählen", 
 			"uploading": "File sedang diimpor, harap tunggu...", 
 			"processing": "File sedang diproses, harap tunggu...", 
-			"done": "Anda berhasil mengunduh! Terima kasih.",
-			"download": "Download!"
+			"done": "Anda berhasil mengunduh! Terima kasih."
 		}, 
 		"buttons": {
 			"download": "Download!", 
