@@ -50,7 +50,7 @@ function generateElements() {
 		if(this.files && this.files[0]) {
 			statusElement.textContent = config.messages.uploading;
 			
-		  let uploadedImage = document.createElement('img').setAttribute("class", "res");
+		  let uploadedImage = document.createElement('img');
 		  uploadedImage.src = URL.createObjectURL(this.files[0]);
 			
 		  uploadedImage.addEventListener('load', function() {
