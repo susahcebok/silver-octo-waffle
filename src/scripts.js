@@ -103,10 +103,6 @@ function generateElements() {
 			
       	statusElement.textContent = config.messages.status.done;
 
-			  // create status
-	let text = document.getElementById("myP").innerText;
-        document.getElementById("demo").innerText = text;
-
 				// create downloadlink
         let downloadButtonElement = document.createElement('a');
         downloadButtonElement.innerText = config.messages.buttons.download;
