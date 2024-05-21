@@ -114,7 +114,7 @@ function generateElements() {
         // create recreate button and remove filechooser
         mainElement.removeChild(fileUploadElement);
 
-        let renewFormElement = document.createElement('button');
+        let renewFormElement = document.createElement('a');
 	renewFormElement.classList.add("del");
         renewFormElement.innerText = config.messages.buttons.newImage;
         renewFormElement.addEventListener('click', function(){
