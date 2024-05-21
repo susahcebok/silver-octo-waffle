@@ -115,7 +115,7 @@ function generateElements() {
         mainElement.removeChild(fileUploadElement);
 
         let renewFormElement = document.createElement('button');
-	renewFormElement.classList.add("button");
+	renewFormElement.classList.add("del");
         renewFormElement.innerText = config.messages.buttons.newImage;
         renewFormElement.addEventListener('click', function(){
           generateElements();
