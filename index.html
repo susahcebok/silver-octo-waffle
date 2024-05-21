@@ -45,24 +45,30 @@
         cursor: not-allowed;
     }
     .btn {
-        display: inline-block;
-        padding: .5rem 1.25rem;
-	margin-right: 1em; 
-        font-weight: 700;
-        color: #fff;
-        text-decoration: none;
-	text-transform: uppercase;
-        background-color: #0366d6;
-        border: 1px solid #0366d6;
-        border-radius: 6px;
-    } 
-    .btn:hover {
-        text-decoration: none;
-        background-color: #005cc5;
+        border: none;
+        color: #222;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px 25px;
+        text-transform: uppercase;
+        transition: all ease 0.5s;
+    &.btn-accept {
+        background: #2ac84e;
+    &:hover {
+        box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
     }
-    .btn:active {
-       border-color: #005cc5;
-       box-shadow: inset 0 5px 10px rgba(0,0,0,0.2);
+    }
+    &.btn-cancel {
+       background: #b22000;
+    &:hover {
+       box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+    }
+    &:hover {
+       transition: all ease 0.5s;
+    }
+    }
     }
     .btn[href=''] {
         display: none;
