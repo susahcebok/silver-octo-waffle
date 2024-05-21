@@ -105,7 +105,6 @@ function generateElements() {
 
 				// create downloadlink
         let downloadButtonElement = document.createElement('a');
-			  downloadButtonElement.innerText = "This is a paragraph.";
         downloadButtonElement.innerText = config.messages.buttons.download;
         downloadButtonElement.href = generator.render();
         downloadButtonElement.download = config.profilePictureName;
