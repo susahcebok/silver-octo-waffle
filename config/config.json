@@ -1,6 +1,6 @@
 {
-	"profilePictureName": "image.png", 
-	"overlaySource": "assets/pic.png", 
+	"profilePictureName": "profilpic.png", 
+	"overlaySource": "assets/picture.png", 
 	"backgroundColor": "#ffffff", 
 	"rootElementId": "app", 
 	"logoSources": [
