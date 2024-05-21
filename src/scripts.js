@@ -100,18 +100,18 @@ function generateElements() {
         let downloadImageElement = document.createElement('img');
       	downloadImageElement.src = generator.render();
         mainElement.appendChild(downloadImageElement);
-
+			
       	statusElement.textContent = config.messages.status.done;
 
 				// create downloadlink
         let downloadButtonElement = document.createElement('a');
-			  downloadButtonElement.textContent = config.messages.status.download;
-
         downloadButtonElement.innerText = config.messages.buttons.download;
         downloadButtonElement.href = generator.render();
         downloadButtonElement.download = config.profilePictureName;
         mainElement.appendChild(downloadButtonElement);
-        
+
+			  statusElement.textContent = config.messages.status.unduh;
+
         // create recreate button and remove filechooser
         mainElement.removeChild(fileUploadElement);
 
