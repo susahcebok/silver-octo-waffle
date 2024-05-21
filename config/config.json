@@ -19,8 +19,8 @@
 			"done": "Anda berhasil mengunduh! Terima kasih."
 		}, 
 		"buttons": {
-			"download": "Download!", 
-			"newImage": "Remake."
+			"download": "Simpan Gambar", 
+			"newImage": "Buat Ulang"
 		}
 	}
 }
