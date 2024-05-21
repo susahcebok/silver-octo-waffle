@@ -110,8 +110,6 @@ function generateElements() {
         downloadButtonElement.download = config.profilePictureName;
         mainElement.appendChild(downloadButtonElement);
 
-			  statusElement.textContent = config.messages.status.unduh;
-
         // create recreate button and remove filechooser
         mainElement.removeChild(fileUploadElement);
 
