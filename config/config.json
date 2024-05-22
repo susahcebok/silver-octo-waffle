@@ -12,7 +12,7 @@
 	],
 	"messages": {
 		"status": {
-			"startup": "Untuk hasil terbaik unggah foto diri Anda dengan rasio 1:1. Silahkan pilih foto profil. Letakkan foto Anda di sini, atau klik untuk mengunggah.", 
+			"startup": "Untuk hasil terbaik unggah foto diri Anda dengan rasio 1:1. Silahkan pilih foto profil. Letakkan foto Anda dibawah, atau klik untuk mengunggah.", 
 			"uploading": "File sedang diimpor, harap tunggu...", 
 			"loading": "Menghasilkan foto profil, harap tunggu...", 
 			"processing": "File sedang diproses, harap tunggu...", 
