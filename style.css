@@ -9,7 +9,7 @@ width: 600px;
 margin: 5em auto;
 padding: 4em;
 line-height: 1.4em;
-background-color: #fdfdff;
+background-color: #fff;
 border-radius: 0.5em;
 box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
 }
@@ -27,7 +27,7 @@ overflow: hidden;
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
-background: url('https://pfpgen.netlify.app/img/file.png') center center no-repeat #fff;
+background: url('https://pfpgen.netlify.app/img/file.png') center center no-repeat #fdfdff;
 border-radius: 0.5em;
 background-size: 60px 60px;
 transition-duration: 0.4s;
