@@ -15,7 +15,7 @@ box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
 img, canvas {
 width: 100%;
 height: auto;
-margin-bottom: 1em;
+margin-bottom: 2em;
 }
 input {
 display: inline-block;
